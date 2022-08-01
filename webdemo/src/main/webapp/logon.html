@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/navigation bar.css">
+    <link rel="stylesheet" href="css/logon.css">
+</head>
+<body>
+
+    <div class="导航栏">
+        <div class="left-logo">
+            <div class="logo"><img src="img/系统图标.png" width="45"></div>
+            <p>论坛管理信息系统</p>
+        </div>
+
+        <div class="占位"></div>
+
+        <div class="right-function">
+            <span class="center"></span>
+            <a href="list.html">主页</a>
+            <a href="editor.html" target="_blank">写帖子</a>
+            <a href="login.html">登录</a>
+        </div>
+    </div>
+
+    <div class="主体区">
+        <div class="注册框">
+            <form action="/web/login" method="post">
+                <h2>注册</h2>
+                <div>
+                    <span>昵称</span>
+                    <input type="text" class="text" placeholder="请输入昵称" name="username">
+                </div>
+                <div>
+                    <span>年龄</span>
+                    <input type="text" class="text" placeholder="请输入年龄" name="age">
+                </div>
+                <div>
+                    <span>性别</span>
+                    <input type="text" class="text" placeholder="请输入性别  男|女" name="sex">
+
+                </div>
+                <div>
+                    <span>爱好</span>
+                    <input type="text" class="text" placeholder="请输入爱好" name="hobby">
+                </div>
+                <div>
+                    <span>职业</span>
+                    <input type="text" class="text" placeholder="请输入职业" name="occupation">
+                </div>
+<!--                <div>-->
+<!--                    <span>Email</span>-->
+<!--                    <input type="text" class="text" placeholder="请输入Email" name="email">-->
+<!--                </div>-->
+                <div>
+                    <span>密码</span>
+                    <input type="password" class="text" placeholder="请输入密码" name="password1">
+                </div>
+                <div>
+                    <span>再次确认密码</span>
+                    <input type="password" class="text" placeholder="请再次确认密码" name="password2">
+                </div>
+                <div>
+                    <button class="提交" type="submit">注册</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>

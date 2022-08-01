@@ -1,0 +1,40 @@
+{
+  "currentUser": {
+    "username": "Mike",
+    "userSex": "男",
+    "userAge": "19",
+    "userOccupation": "java工程师",
+    "userHobby": "羽毛球"
+  },
+  "pointCount": 10,
+  "classCount": 20,
+  "SectionList": [
+    {
+      "sName": 1,
+      "uID": "爱敢犯的猿",
+      "sStatement": "bla bla bla bla ..."
+    },
+    {
+      "sName": 1,
+      "uID": "爱敢犯的猿",
+      "sStatement": "bla bla bla bla ..."
+    },
+    {
+      "sName": 1,
+      "uID": "爱敢犯的猿",
+      "sStatement": "bla bla bla bla ..."
+    },    {
+      "sName": 1,
+      "uID": "爱敢犯的猿",
+      "sStatement": "bla bla bla bla ..."
+    },    {
+      "sName": 1,
+      "uID": "爱敢犯的猿",
+      "sStatement": "bla bla bla bla ..."
+    },    {
+      "sName": 1,
+      "uID": "爱敢犯的猿",
+      "sStatement": "bla bla bla bla ..."
+    }
+  ]
+}

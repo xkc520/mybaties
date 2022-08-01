@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--设置sql映射文件的namesp属性为mapper接口全限定名-->
+<mapper namespace="mapper.usermapper">
+    <insert id="add"   useGeneratedKeys="true" keyProperty="id">
+        insert  into tb_users (id,username,password) values (#{id},#{username},#{password});
+    </insert>
+    <delete id="delete">
+        delete from tb_users where id=#{id} and username=#{username} and password=#{password};
+    </delete>
+
+    <select id="selectByname" resultType="pojo.user">
+        select  *from tb_users where username=#{username};
+    </select>
+    <select id="select" resultType="pojo.user">
+        select *from tb_users where username=#{username} and password=#{password};
+    </select>
+</mapper>

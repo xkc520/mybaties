@@ -1,0 +1,59 @@
+.主体区 {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.注册框 {
+    width: 500px;
+    height: 450px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+
+h2 {
+    font-size: 20px;
+}
+
+span {
+    display: inline-block;
+    width: 120px;
+    text-align: left;
+}
+.sex {
+    width: 225px;
+    right: 20px;
+
+}
+
+.hobby {
+    width: 125px;
+}
+
+.提交 {
+    width: 290px;
+    height: 30px;
+
+    background: rgba(77,132,226);
+    color: white;
+    border: none;
+}
+
+.text {
+    width: 165px;
+    height: 25px;
+    padding-left: 10px;
+
+    border-radius: 5px;
+    border: none;
+}

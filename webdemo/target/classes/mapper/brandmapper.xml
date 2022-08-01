@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="mapper.brandmapper">
+    <insert id="add">
+        insert into tb_brand(id,brandname,companyname,ordered,description,status) values (#{id},#{brandname},#{companyname},#{ordered},#{description},#{status});
+    </insert>
+    <update id="update">
+update tb_brand set brandname=#{brandname},companyname=#{companyname},ordered=#{ordered},description=#{description},status=#}status where id=#{id};
+    </update>
+    <delete id="delete">
+        delete
+        from tb_brand
+        where id=#{id};
+    </delete>
+
+    <select id="selectAll" resultType="pojo.Brand">
+        select *from tb_brand;
+    </select>
+    <select id="selectByid" resultType="pojo.Brand">
+        select *from tb_brand where id=#{id};
+    </select>
+</mapper>
